@@ -1,4 +1,4 @@
-import './center.css'
+import './Center.css'
 import React, { useEffect, useRef } from 'react';
 import { Grid } from '@mui/material';
 
