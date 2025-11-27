@@ -1,0 +1,40 @@
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2f2f2f;
+    padding: 10px;
+    cursor: pointer;
+   
+    
+}
+.footer-section h2{
+    color: white;
+
+}
+.footer-section p{
+    color: grey;
+}
+#foot:hover{
+    color: lightgreen;
+}
+.footer-section p:active{
+    transform: scale(0.99);
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #1e1d1d;
+    color: rgb(160, 159, 159);
+}
+.footer-icons{
+    display: flex;
+    gap: 10px;
+    color: gray;
+}
+#icons:hover{
+    color: lightgreen;
+}
+body{
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,71 @@
+.card-center {
+    padding:200px;
+
+}
+
+#card-h1 {
+    font-family: "poppins";
+}
+
+#card-para {
+    font-family: "poppins";
+    font-size: large;
+}
+/* .card-sec{
+    display: flex;
+    justify-content: space-evenly;
+     padding: 20px;
+
+} */
+.card{
+    box-shadow: 0px 0px 8px grey;
+    background: linear-gradient(to bottom, #b1e2f1, #b9f1b9);
+     width:200px;   
+    padding: 10px;
+    gap: 20px;
+    transition: transform 0.2s;
+    border-radius: 0px 20px 0px 20px;
+    font-family: "sans-serif";
+}
+#join-btn{
+    background-color: rgb(227, 243, 243);
+    padding: 10px;
+    border-radius: 10px;
+    
+    cursor: pointer;
+}
+.card-sec1{
+    display: flex;
+    justify-content: space-evenly;
+}
+@keyframes slideUp {
+    from {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.card-center {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.6s ease-out;
+}
+
+.card-center.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+ #join-btn{
+    transition: transform 0.1s ease
+ }
+#join-btn:active{
+    transform: scale(0.9);
+}
+.card:hover{
+    transform: scale(1.02);
+}

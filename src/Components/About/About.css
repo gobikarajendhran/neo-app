@@ -1,0 +1,78 @@
+.about-img{
+    position: relative;
+}
+.about{
+    position: absolute;
+    top: 40%;
+    left:20%;
+    padding: 30px;
+    color: rgb(239, 242, 243);
+    font-family: "sans-serif";
+   
+}
+.about-content{
+    padding: 50px;
+}
+.about-content p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: larger;
+    font-style: italic;
+}
+.about-content h2{
+    font-family: "poppins";
+    font-style: italic;
+}
+/* #about-box{
+    position: absolute;
+    left: 45%;
+    color: black;
+    top: 180%;
+    background-color: aqua;
+    box-shadow: 0px 0px 8px grey;
+    padding: 10px;
+} */
+ .about-footer{
+    
+    
+   
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+ }
+ .about-footer {
+     opacity: 0;
+     transform: translateY(30px);
+     transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+ }
+
+ .about-footer.visible {
+     opacity: 1;
+     transform: translateY(0);
+ }
+ .about-vision{
+    background-color: rgb(216, 244, 244);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    border: double;
+   
+    min-height: 200px;
+ }
+ @media (max-width: 768px) {
+     .about {
+         position: static;
+         /* Absolute position remove pannitu normal flow la varum */
+         padding: 20px;
+         color: black;
+         /* Background mela clear ah irukanum */
+         text-align: center;
+     }
+
+     .about-img {
+         padding-bottom: 20px;
+         /* Space kudukka */
+     }
+
+     .about-content {
+         padding: 20px;
+     }
+ }

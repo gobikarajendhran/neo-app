@@ -1,0 +1,14 @@
+#home-h2{
+    font-family: "poppins";
+    font-style: italic;
+}
+#home-para{
+    font-family: "sans-serif";
+    font-style: italic;
+    font-size: large;
+}
+.slick-prev::before,
+.slick-next::before {
+    color: black !important;
+    font-size: 24px !important;
+}
